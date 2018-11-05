@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tu personaje</title>
+    <link rel="stylesheet" type="text/css" href="plaza/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
+</head>
+<body>
+    <h1>Simulador de relaciones interpersonales</h1>
+    <section id="pj_init">
+        <fieldset>
+            <legend>Introduzca los datos de su personaje</legend>
+            <label for="pj_nombre">Nombre</label>
+            <input type="text" id="pj_nombre">
+            <label for="elegir_clase">Clase</label>
+            <select id="elegir_clase">
+                <option value="1">Luchador</option>
+                <option value="2">Mago</option>
+                <option value="3">Arquero</option>
+                <option value="4">Clérigo</option>
+                <option value="5">Ladrón</option>
+            </select>
+
+        </fieldset>
+        <button id="btn_guardar">Guardar</button>
+    </section>
+
+    <section>
+        <table id="pj_stats"></table>
+    </section>
+
+    <section class="plaza">
+        <fieldset>
+            <legend>Introduzca los datos de miembros de la plaza</legend>
+            <label for="pj_plaza_nombre">Nombre</label>
+            <input type="text" id="pj_plaza_nombre">
+            <label for="elegir_clase_plaza">Clase</label>
+            <select id="elegir_clase_plaza">
+                <option value="1">Luchador</option>
+                <option value="2">Mago</option>
+                <option value="3">Arquero</option>
+                <option value="4">Cl&eacute;rigo</option>
+                <option value="5">Ladr&oacute;n</option>
+            </select>
+        </fieldset>
+        <button id="btn_plaza">Añadir personaje a la plaza</button>
+        <table id="plaza">
+
+        </table>
+    </section>
+    <section class="hist">
+        <h2>Historial de interacciones</h2>
+        <ol id='historial'>
+
+        </ol>
+    </section>
+
+    <script src="creacion_personaje.js"></script>
+</body>
+</html>

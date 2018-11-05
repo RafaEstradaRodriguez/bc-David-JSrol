@@ -1,0 +1,38 @@
+body {
+    background-color: #6b5c1e;
+    font-family: 'MedievalSharp', cursive;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+}
+.titulo_plaza {
+    font-weight: bold;
+    border-width: 1px;
+}
+.titulo_personaje {
+    font-weight: bold;
+}
+legend {
+    font-weight: bold;
+    font-size: large;
+}
+section {
+    padding: 1em;
+    border-color: black;
+}
+#pj_init {
+    width: 33%;
+}
+#pj_stats {
+    text-align: center;
+}
+.plaza fieldset{
+    width: 30.7%;
+}
+#plaza {
+    text-align: center;
+}
+.hist {
+    float: right;
+}
